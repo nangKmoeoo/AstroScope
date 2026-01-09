@@ -1,0 +1,122 @@
+<html>
+<head>
+<style>
+.flip-card {
+  background-color: transparent;
+  width: 170px;
+  height: 200px;
+  /*border: 1px solid #f1f1f1;*/
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+table { margin: 0 auto;}
+td { padding: 25px;}
+body {background-color: black;}
+#kk {padding-top: 5px; padding-right: 5px; padding-left: 5px;}
+#haha { padding-top: 50px;}
+</style>
+</head>
+<body>
+<table border="0">
+<tr>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c1.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href=""><img src="c1a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c2.jpg" alt="Flower" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href=""><img src="c2a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c3.jpg" alt="Flower" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href=""><img src="c3a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+</tr>
+<tr>
+<td id="haha"><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c4.jpg" alt="Card 4" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href=""><img src="c4a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td id="haha"><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c5.jpg" alt="Card 5" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href=""><img src="c5a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td id="haha"><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c6.jpg" alt="Card 6" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href=""><img src="c6a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+</tr>
+</table>
+</body>

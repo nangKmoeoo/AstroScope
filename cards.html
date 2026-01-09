@@ -1,0 +1,225 @@
+<html>
+<head>
+<style>
+.flip-card {
+  background-color: transparent;
+  width: 170px;
+  height: 200px;
+  /*border: 1px solid #f1f1f1;*/
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+table { margin-left: auto; margin-right: auto;}
+td {padding-top:25px; padding-bottom:25px;padding-left: 45px;}
+body {background-color: black; background-image: url(litt.jpg);background-repeat: no-repeat; background-size: cover;}
+h1 { color: #ffffff; text-align: center; text-shadow: 5px 5px 6px gold; letter-spacing: 5px; }
+h4 {text-align: center; background-image: url(astrology.jpg); color: #ffffff; font-size: 1.5em; padding-top:10px; padding-bottom:10px; padding-right: 40px;padding-left: 40px; display: inline; margin-left: 450; margin-right: 450; border-radius: 25px;}
+#kk {padding-top: 5px; padding-right: 5px; padding-left: 5px;}
+span a {font-size: 0.9em; text-decoration: none; padding: 10px; display: inline; background-color: #000000; border-style: none; padding-left: 25px; padding-right: 25px; padding-bottom: 7.5px;border-right: 1px solid;}
+span a:link {color:#daa520;}
+span a:visited {color: #daa520;}
+span a:hover {color: #000000; background-color: #daa520;}
+#meo { float: right;}
+</style>
+</head>
+<body>
+<span id="meo"><a href="home.html">Home</a><a href="signs.html">Zodiac Signs</a><a href="calendar.html">Zodiac Calendar</a><a href="project.html">Horoscope</a><a href="planet.html">The Planets</a></span><br>
+<h1>Choose A Card</h1><br>
+<table border="0">
+<tr>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c7.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/knight-of-pentacles-tarot-card-meanings/"><img src="c7a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c1.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.mypandit.com/tarot/major-arcana/the-fool/"><img src="c1a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c2.jpg" alt="Flower" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/the-tower-tarot-card-meanings/"><img src="c2a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c3.jpg" alt="Flower" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.mindbodygreen.com/articles/strength-tarot-card"><img src="c3a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c8.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/ten-of-swords-tarot-card-meanings/"><img src="c8a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+</tr>
+<tr>
+<td colspan="5"><h4 id="yy">Message from Universe</h4></td>
+</tr>
+<tr>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c9.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/the-hermit-tarot-card-meanings/"><img src="c9a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c4.jpg" alt="Card 4" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/the-hanged-man-tarot-card-meanings/"><img src="c4a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c5.jpg" alt="Card 5" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/three-of-swords-tarot-card-meaning/"><img src="c5a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c6.jpg" alt="Card 6" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/justice-tarot-card-meanings/"><img src="c6a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c10.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/moon-tarot-card-meanings/"><img src="c10a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+</tr>
+<tr>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c11.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/the-sun-tarot-card-meanings/"><img src="c11a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c12.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.mypandit.com/tarot/major-arcana/lovers/"><img src="c12a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c13.jpg" alt="Flower" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/the-chariot-tarot-card-meanings/"><img src="c13a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c14.jpg" alt="Flower" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://www.alittlesparkofjoy.com/eight-of-swords-tarot-card-meanings/"><img src="c14a.jpg" alt="Card" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+<td><div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="c15.jpg" alt="Card1" style="width:170px; height:200px;">
+    </div>
+    <div class="flip-card-back">
+      <a href="https://astrotalk.com/tarot/wheel-of-fortune"><img src="c15a.jpg" alt="The Fool" style="width:170px; height:200px;"></a>
+    </div>
+  </div>
+</div></td>
+</tr>
+</table><br>
+</body>

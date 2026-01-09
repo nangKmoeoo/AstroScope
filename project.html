@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>Astrology</title>
+<meta charset="utf-8">
+<style>
+body {text-color: #ffffff; font-family: Fantasy,Georgia,serif; background-image:url(litt.jpg); background-repeat: no-repeat; background-size: cover; background-color: #000000;}
+#wrapper { margin-left: 100px;}
+span a {font-size: 0.9em; text-decoration: none; padding: 10px; display: inline; background-color: #000000; border-style: none; padding-left: 25px; padding-right: 25px; padding-bottom: 7.5px;border-right: 1px solid;}
+span a:link {color:#daa520;}
+span a:visited {color: #daa520;}
+span a:hover {color: #000000; background-color: #daa520;}
+#me { float: right;}
+h1 {text-transform: uppercase; letter-spacing: 8px;color: #e6e6fa; font-family: Fantasy,Georgia,serif; text-align: center; margin-bottom: 20px; text-shadow: 4px 4px 5px gold;}
+h2 {color: #b8860b; background-color: #000000; display: inline; font-family: Fantasy,Georgia,serif; margin-left: 400px;}
+label {color: #b8860b; float: left; display: block; text-align: right; width: 120px; padding-right: 10px;}
+input {margin-bottom: 20px; padding: 5px 10px; }
+#meo {display: block; border-radius: 15px; border-style: none;}
+#mylog { margin-left: 35px; opacity: 0.9; padding-top: 7px; padding-left: 21px; padding-right: 21px; padding-bottom: 7px; background-color: #b8860b; font-weight: bold; color: #ffffff;}
+#mycancel { margin-left: 20px; opacity: 0.9;}
+#kk {margin-top: 85px;}
+.feature{padding-left: 7px; padding-right: 5px; padding-top: 3px; padding-bottom: 3px; margin-bottom: 20px; font-size: 0.9em;}
+#qq {font-size: 1.18em; padding-left: 30px; padding-right: 30px; opacity: 0.9;border-radius: 12px;}
+#aa{color: #b8860b; background-color: #000000; display: inline;padding:left: 1px;padding:right: 1px;}
+fieldset{ width: 950px; height: 400px; padding: 20px; border: 1px ridge #b8860b; background-color: #000000; opacity: 0.7; margin-left: 30px;}
+legend { color: #ffffff;}
+</style>
+</head>
+<body>
+<span id="me"><a href="home.html">Home</a><a href="signs.html">Zodiac Signs</a><a href="cards.html">Choose a card</a><a href="calendar.html">Zodiac Calendar</a><a href="planet.html">The Planets</a></span><br>
+<h1>Astrology Things</h1><br>
+<div id="wrapper">
+<h2>Horoscope Prediction !</h2><br><br>
+<fieldset>
+<legend><i> * * Request Your Personal Horoscope</i></legend>
+<form id="kk" method="post" action="http://webdevbasics.net/scripts/demo.php">
+<label for="myName">Name* :</label><input id="meo" type="text" name="myName" id="myName" size="25" placeholder="Name"  required>
+<label for="myEmail">E-mail* :</label><input id="meo" type="email" name="myEmail" id="myEmail" size="25" placeholder="E-mail"  required>
+<label for="mobile">Ph-No :</label><input id="meo" type="tel" name="mobile" id="mobile" size="25" placeholder="Phone-No">
+<label for="myMonth"><strong>Birthday :</strong></label><input id="qq" type="date" id="myMonth" name="myMonth" required><br><br>
+<label id="aa"><strong>Work Status :</strong></label><select name="love" id="love" class="feature">
+<option>Select Your Work Reading*</option>
+<option>I'm a student, will I succeed in my studies?</option>
+<option>I'm unemployed, when will I find a job?</option>
+<option>How my career is going to evolve?</option>
+<option>Should I keep my job or start my own business?</option>
+</select>&nbsp; &nbsp;
+<label1 id="aa"><strong>Love Status :</strong></label1><select name="love" id="love" class="feature">
+<option>Select Your Love Reading*</option>
+<option>When will I find my soul mate?</option>
+<option>Is my present partner the right person for me?</option>
+<option>Will I get back with my ex?</option>
+<option>I have someone on my mind, will we be together?</option>
+</select><br><br>
+</fieldset><br>
+<input id="mylog" type="submit" value="Get Your Reading"><input id="mycancel" type="reset" value="Cancel">
+</form>
+</div>
+</body></html>
